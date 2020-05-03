@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch=".." />
+
+  <default revision="refs/heads/master"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="manifest" name="HydrogenOS/manifest" />
+  <project path="tutorials" name=" HydrogenOS/tutorials" />
+  <project path="plugins" name=" HydrogenOS/plugins" />
+  <project path="build" name=" HydrogenOS/build" />
+  <project path="tools" name=" HydrogenOS/tools" />
+  <project path=" HydrogenOS/release" name="Hydrogen-OS-P/HydrogenOS-release"/>
+  <project path=" HydrogenOS/overlay" name=" HydrogenOS/ HydrogenOS-overlay" />
+  <project path="devices/base" name=" HydrogenOS/devices-base" />
+</manifest>
