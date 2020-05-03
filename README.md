@@ -19,7 +19,7 @@
      +-- plugins            扩展插件，用于扩展已有功能
      +-- build              编译环境，用于构建和编译机型
      +-- tools              适配工具
-     +-- flyme              Flyme相关，内容定期更新
+     +-- Hydrogen      Hydrogen-OS-P相关，内容定期更新
           +-- release       官方发布的ROM包
           +-- overlay       资源覆盖
      +-- devices            机型目录
