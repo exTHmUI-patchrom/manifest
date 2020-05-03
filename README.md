@@ -32,14 +32,14 @@
 通过repo init命令的-b参数, 选择需要下载的分支。
 通过repo sync命令同步远程代码: 
 
-    $ repo init -u https://github.com/FlymeOS/manifest.git -b marshmallow-6.0
+    $ repo init -u https://github.com/Hydrogen-OS-P/manifest.git -b master
     $ repo sync -c -j4
 
 如果连接一直失败或下载代码过慢，则使用以下命令:
 
-    $ repo init --repo-url git://github.com/FlymeOS/repo.git \
-                -u https://github.com/FlymeOS/manifest.git \
-                -b marshmallow-6.0 --no-repo-verify
+    $ repo init --repo-url git://github.com/Hydrogen-OS-P/repo.git \
+                -u https://github.com/Hydrogen-OS-P/manifest.git \
+                -b master --no-repo-verify
     $ repo sync --no-clone-bundle -c -j4
 
 
@@ -58,10 +58,10 @@
 
 按照如下步骤，完成一个新机型的适配：
 
-    $ flyme config      # 生成机型配置文件Makefile
-    $ flyme newproject  # 生成新机型目录
-    $ flyme patchall    # 自动插桩
-    $ flyme fullota     # 生成适配完成的ROM包
+    $ make config      # 生成机型配置文件Makefile
+    $ make newproject  # 生成新机型目录
+    $ make patchall    # 自动插桩
+    $ make fullota     # 生成适配完成的ROM包
 
 
 <b>* 冲突处理</b>
@@ -71,16 +71,8 @@
     <<<<<<< VENDOR
       原厂的代码块
     =======
-      Flyme的代码块
+      Hydrogen的代码块
     >>>>>>> BOSP
-
-
-<b>* 版本升级</b>
-
-可以跟随官方发布的最新ROM包，将已经是适配完成的机型升级到最新版本：
-
-    $ flyme cleanall
-    $ flyme upgrade
 
 
 # 5. 贡献代码
