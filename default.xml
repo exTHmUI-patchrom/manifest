@@ -7,12 +7,12 @@
            remote="origin"
            sync-j="4" />
 
-  <project path="manifest" name="HydrogenOS/manifest" />
-  <project path="tutorials" name=" HydrogenOS/tutorials" />
-  <project path="plugins" name=" HydrogenOS/plugins" />
-  <project path="build" name=" HydrogenOS/build" />
-  <project path="tools" name=" HydrogenOS/tools" />
-  <project path=" Hydrogen/release" name="Hydrogen/HydrogenOS-release"/>
-  <project path=" Hydrogen/overlay" name=" Hydrogen/HydrogenOS-overlay" />
-  <project path="devices/base" name=" HydrogenOS/devices-base" />
+  <project path="manifest" name="Hydrogen-OS-P/manifest" />
+  <project path="tutorials" name="Hydrogen-OS-P/tutorials" />
+  <project path="plugins" name="Hydrogen-OS-P/plugins" />
+  <project path="build" name="Hydrogen-OS-P/build" />
+  <project path="tools" name="Hydrogen-OS-P/tools" />
+  <project path="Hydrogen/release" name="Hydrogen-OS-P/HydrogenOS-release"/>
+  <project path="Hydrogen/overlay" name="Hydrogen-OS-P/HydrogenOS-overlay" />
+  <project path="devices/base" name="Hydrogen-OS-P/devices-base" />
 </manifest>
