@@ -8,8 +8,10 @@
            sync-j="4" />
 
   <project path="manifest" name="Hydrogen-android/manifest" />
+  <!--
   <project path="tutorials" name="Hydrogen-android/tutorials" />
   <project path="plugins" name="Hydrogen-android/plugins" />
+  -->
   <project path="build" name="Hydrogen-android/build" />
   <project path="tools" name="Hydrogen-android/tools" />
   <project path="Hydrogen/release" name="Hydrogen-android/HydrogenOS-release"/>
