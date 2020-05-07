@@ -58,7 +58,7 @@
 
 按照如下步骤，完成一个新机型的适配：
 
-    $ make config      # 生成机型配置文件Makefile
+    $ makeconfig      # 生成机型配置文件Makefile
     $ make newproject  # 生成新机型目录
     $ make patchall    # 自动插桩
     $ make fullota     # 生成适配完成的ROM包
