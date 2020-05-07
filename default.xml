@@ -3,16 +3,16 @@
   <remote name="origin"
           fetch=".." />
 
-  <default revision="refs/heads/master"
+  <default revision="refs/heads/android-9.0"
            remote="origin"
            sync-j="4" />
 
-  <project path="manifest" name="Hydrogen-OS-P/manifest" />
-  <project path="tutorials" name="Hydrogen-OS-P/tutorials" />
-  <project path="plugins" name="Hydrogen-OS-P/plugins" />
-  <project path="build" name="Hydrogen-OS-P/build" />
-  <project path="tools" name="Hydrogen-OS-P/tools" />
-  <project path="Hydrogen/release" name="Hydrogen-OS-P/HydrogenOS-release"/>
-  <project path="Hydrogen/overlay" name="Hydrogen-OS-P/HydrogenOS-overlay" />
-  <project path="devices/base" name="Hydrogen-OS-P/devices-base" />
+  <project path="manifest" name="Hydrogen-android/manifest" />
+  <project path="tutorials" name="Hydrogen-android/tutorials" />
+  <project path="plugins" name="Hydrogen-android/plugins" />
+  <project path="build" name="Hydrogen-android/build" />
+  <project path="tools" name="Hydrogen-android/tools" />
+  <project path="Hydrogen/release" name="Hydrogen-android/HydrogenOS-release"/>
+  <project path="Hydrogen/overlay" name="Hydrogen-android/HydrogenOS-overlay" />
+  <project path="devices/base" name="Hydrogen-android/devices-base" />
 </manifest>
