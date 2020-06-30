@@ -17,4 +17,5 @@
   <project path="Hydrogen/release" name="Hydrogen-android/HydrogenOS-release"/>
   <project path="Hydrogen/overlay" name="Hydrogen-android/HydrogenOS-overlay" />
   <project path="devices/base" name="Hydrogen-android/devices-base" />
+  <project path="tutorials" name="Hydrogen-android/tutorials" />
 </manifest>
