@@ -1,25 +1,25 @@
 # 1. 介绍
 
-`Hydrogen-android`开源项目致力于为开发者提供业界一流的ROM适配工具。
+`exTHmUI-patchrom`开源项目致力于为开发者提供业界一流的ROM适配工具。
 
-二零二零年六月三十日，` Hydrogen-android`开放适配终于来了，我们相信虽晚未迟。
+二零二零年六月三十日，`exTHmUI-patchrom`开放适配终于来了，我们相信虽晚未迟。
 
 [![License](https://img.shields.io/badge/License-Apache%20V2.0-blue.svg)](LICENSE)
 
 
 # 2. 分支命名
 
-开源项目的分支命名与Android版本对应,目前支持**Android Pie**的机型适配
+开源项目的分支命名与Android版本对应,目前支持**Android Q**的机型适配
 
 目录结构如下所示: 
 
-     Hydrogen-android
+      exTHmUI-patchrom 
      +-- manifest           项目清单
      +-- tutorials          教程文档
      +-- plugins            扩展插件，用于扩展已有功能
      +-- build              编译环境，用于构建和编译机型
      +-- tools              适配工具
-     +-- Hydrogen      Hydrogen-android相关，内容定期更新
+     +--  exTHmUI       exTHmUI-patchrom 相关，内容定期更新
           +-- release       官方发布的ROM包
           +-- overlay       资源覆盖
      +-- devices            机型目录
@@ -32,14 +32,14 @@
 通过repo init命令的-b参数, 选择需要下载的分支。
 通过repo sync命令同步远程代码: 
 
-    $ repo init -u https://github.com/Hydrogen-android/manifest.git -b android-9.0
+    $ repo init -u https://github.com/exTHmUI-patchrom/manifest.git -b Q
     $ repo sync -c -j4
 
 如果连接一直失败或下载代码过慢，则使用以下命令:
 
-    $ repo init --repo-url git://github.com/Hydrogen-android/repo.git \
-                -u https://github.com/Hydrogen-android/manifest.git \
-                -b android-9.0 --no-repo-verify
+    $ repo init --repo-url git://github.com/exTHmUI-patchrom/repo.git \
+                -u https://github.com/exTHmUI-patchrom/manifest.git \
+                -b Q --no-repo-verify
     $ repo sync --no-clone-bundle -c -j4
 
 
@@ -71,19 +71,19 @@
     <<<<<<< VENDOR
       原厂的代码块
     =======
-      Hydrogen的代码块
+       exTHmUI的代码块
     >>>>>>> BOSP
 
 
 # 5. 贡献代码
 
-我们鼓励开发者为开源社区作出贡献。利用Github的Pull-Request机制，便可将内容变更发送给'Hydrogen-android'审阅。
+我们鼓励开发者为开源社区作出贡献。利用Github的Pull-Request机制，便可将内容变更发送给' exTHmUI-patchrom '审阅。
 
 ![image](github-pull-request.png)
 
-- 首先，在github页面上，点击“Fork”，将'Hydrogen-android'的git库拷贝到自己账户
+- 首先，在github页面上，点击“Fork”，将'exTHmUI-patchrom'的git库拷贝到自己账户
 - 然后，对拷贝的git库进行修改，将内容变更提交到自己的账户
-- 最后，在github页面上，点击"New pull request"，向'Hydrogen-android'发起代码审阅
+- 最后，在github页面上，点击"New pull request"，向' exTHmUI-patchrom '发起代码审阅
 
 
 

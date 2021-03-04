@@ -3,19 +3,15 @@
   <remote name="origin"
           fetch=".." />
 
-  <default revision="refs/heads/android-9.0"
+  <default revision="refs/heads/Q"
            remote="origin"
            sync-j="4" />
 
-  <project path="manifest" name="Hydrogen-android/manifest" />
-  <!--
-  <project path="tutorials" name="Hydrogen-android/tutorials" />
-  <project path="plugins" name="Hydrogen-android/plugins" />
-  -->
-  <project path="build" name="Hydrogen-android/build" />
-  <project path="tools" name="Hydrogen-android/tools" />
-  <project path="Hydrogen/release" name="Hydrogen-android/HydrogenOS-release"/>
-  <project path="Hydrogen/overlay" name="Hydrogen-android/HydrogenOS-overlay" />
-  <project path="devices/base" name="Hydrogen-android/devices-base" />
-  <project path="tutorials" name="Hydrogen-android/tutorials" />
+  <project path="manifest" name="exTHmUI-patchrom/manifest" />
+  <project path="build" name="exTHmUI-patchrom/build" />
+  <project path="tools" name="exTHmUI-patchrom/tools" />
+  <project path="exTHmUI/release" name="exTHmUI-patchrom/exTHmUI-release"/>
+  <project path="exTHmUI/overlay" name="exTHmUI-patchrom/exTHmUI-overlay" />
+  <project path="devices/base" name="exTHmUI-patchrom/devices-base" />
+  <project path="tutorials" name="exTHmUI-patchrom/tutorials" />
 </manifest>
